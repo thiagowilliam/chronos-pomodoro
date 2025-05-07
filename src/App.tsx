@@ -1,7 +1,16 @@
+import './styles/global.css';
+import './styles/theme.css';
+import { Heading } from './components/Heading';
+import { TimerIcon } from 'lucide-react';
 export function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Heading>
+        Olá mundo 1
+        <button type='button'>
+          <TimerIcon />
+        </button>
+      </Heading>
     </>
   );
 }
